@@ -1,0 +1,71 @@
+body{
+    background-color:#f0ecff;
+}
+.card{
+    margin-top: 30px;
+}
+#success-alert{
+    position: fixed;
+    z-index: 9999;
+    width:30%;
+    bottom: 0;
+    right: 0;
+
+}
+#add-post-button{
+position: fixed;
+bottom: 5%;
+right: 7%;
+color: white;
+font-size: 50px;
+height: 70px;
+text-align: center;
+width: 70px;
+height: 70px;
+border-radius: 100px;
+cursor: pointer;
+box-shadow: 0 10px 10px  rgba(0, 0, 0, 0.3);
+}
+.number-info{
+    color: rgb(172, 172, 172);
+}
+.number-info span{
+    font-size: 50px;
+    color: black;
+}
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+
+
+  svg #plug,
+  svg #socket {
+    fill:#ffffff;
+  }
+  
+  svg #loop-normal {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 12;
+  }
+  
+  svg #loop-offset {
+    display: none;
+  }
+  
+  .credit {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .credit a {
+    color: #ffffff;
+    font: 800 75% "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
